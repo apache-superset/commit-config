@@ -19,7 +19,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "bin": "./my-cli.js",
+  "bin": "./cli.js",
   "dependencies": {
     "commitizen": "^3.0.7",
     "cz-conventional-changelog": "^2.1.0",
