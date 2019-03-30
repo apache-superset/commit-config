@@ -16,6 +16,9 @@
     "url": "https://github.com/apache-superset/superset-commit/issues"
   },
   "homepage": "https://github.com/apache-superset/superset-commit#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": "./my-cli.js",
   "dependencies": {
     "commitizen": "^3.0.7",
