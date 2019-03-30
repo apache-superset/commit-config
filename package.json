@@ -1,5 +1,5 @@
 {
-  "name": "@superset-ui/superset-commit",
+  "name": "@superset-ui/commit-config",
   "version": "0.0.0",
   "description": "standardized commit messages",
   "main": "cli.js",
