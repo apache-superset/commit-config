@@ -1,0 +1,29 @@
+{
+  "name": "@superset-ui/superset-commit",
+  "version": "0.0.0",
+  "description": "standardized commit messages",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apache-superset/superset-commit.git"
+  },
+  "author": "Krist Wongsuphasawat",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/apache-superset/superset-commit/issues"
+  },
+  "homepage": "https://github.com/apache-superset/superset-commit#readme",
+  "bin": "./my-cli.js",
+  "dependencies": {
+    "commitizen": "^3.0.7",
+    "cz-conventional-changelog": "^2.1.0",
+    "conventional-changelog": "^3.0.6",
+    "conventional-changelog-cli": "^2.0.12",
+    "@commitlint/cli": "^7.5.2",
+    "@commitlint/config-conventional": "^7.5.0",
+    "@commitlint/config-lerna-scopes": "^7.5.1"
+  }
+}
