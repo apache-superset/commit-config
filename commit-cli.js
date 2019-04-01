@@ -7,6 +7,6 @@ const bootstrap = require('commitizen/dist/cli/git-cz').bootstrap;
 bootstrap({
   cliPath: path.dirname(require.resolve('commitizen/package.json')),
   config: {
-    "path": "@commitlint/prompt"
+    "path": "cz-conventional-changelog"
   }
 });
