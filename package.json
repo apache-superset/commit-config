@@ -19,7 +19,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "bin": "./cli.js",
+  "bin": {
+    "superset-commit": "./cli.js"
+  },
   "dependencies": {
     "commitizen": "^3.0.7",
     "git-cz": "^3.0.1",
