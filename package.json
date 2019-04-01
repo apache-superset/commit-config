@@ -20,7 +20,7 @@
     "access": "public"
   },
   "bin": {
-    "superset-commit": "./cli.js"
+    "superset-commit": "./commit-cli.js"
   },
   "dependencies": {
     "commitizen": "^3.0.7",
@@ -30,6 +30,7 @@
     "conventional-changelog-cli": "^2.0.12",
     "@commitlint/cli": "^7.5.2",
     "@commitlint/config-conventional": "^7.5.0",
-    "@commitlint/config-lerna-scopes": "^7.5.1"
+    "@commitlint/config-lerna-scopes": "^7.5.1",
+    "@commitlint/prompt": "^7.5.0"
   }
 }
